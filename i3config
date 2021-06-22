@@ -203,11 +203,11 @@ bindsym Mod1+r mode "resize"
 
 # Window color settings
 # class                 border  backgr. text    indicator
-client.focused          #443F33 #656608 #DBCBA4 #443F33
-client.unfocused        #443F33 #DBCBA4 #443F33 #443F33
-client.focused_inactive #443F33 #2e3440 #888888 #2e3440
+client.focused          #B0179F #5E0C55 #CE9CFF #B0179F
+client.unfocused        #8665A5 #CE9CFF #5E0C55 #B0179F
+client.focused_inactive #B0179F #2e3440 #888888 #B0179F
 client.placeholder      #443F33 #2e3440 #888888 #2e3440
-client.urgent           #443F33 #900000 #ffffff #900000
+client.urgent           #B0179F #900000 #ffffff #FF21E6
 
 client.background       #242424
 
@@ -237,17 +237,17 @@ bar {
 	bindsym button5 nop
 
     colors {
-            separator  #DBCBA4
-            background #4F453D
-            statusline #DBCBA4
+            separator  #CE9CFF
+            background #5E0C55
+            statusline #CE9CFF
               
             #                   border  background text
-            focused_workspace  #443F33 #F0F214Q    #443F33 
-            active_workspace   #443F33 #F0F214    #443F33
-            inactive_workspace #443F33 #DBCBA4    #443F33
-            urgent_workspace   #443F33 #C8F200    #443F33
+            focused_workspace  #B0179F #5E0C55    #CE9CFF 
+            active_workspace   #B0179F #5E0C55    #CE9CFF 
+            inactive_workspace #8665A5 #CE9CFF    #5E0C55
+            urgent_workspace   #B0179F #5E0C55    #CE9CFF 
             binding_mode       #6D491E #F2A142    #6D491E
     }
 }
 #color theme based on wallpaper 'py-pal'
-exec --no-startup-id feh --bg-fill ~/wallpapers/wp.jpg
+exec --no-startup-id feh --bg-fill ~/wallpapers/space.jpg
